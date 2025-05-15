@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int num;
 
-        while (true) {
+        for (int max = 0; max <= 999; max--) {
             System.out.print("1부터 100사이의 값을 입력하세요: ");
             num = sc.nextInt();
 
